@@ -8,9 +8,10 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
-      name: "Ethereum Classic",
-      network: "mainnet",
-      rpc: ["https://www.ethercluster.com/etc"],
+      name: "Hologram Subnet",
+      network: "testnet",
+      rpc: ["http://167.99.77.59:9656/ext/bc/bwxi7tD59xbEhqDr5tLTvaG6xvHDvZoRw9h2TY1hUnkHuAaZv/rpc"],
+      chainId: 8888
     },
     {
       name: "Matic",
