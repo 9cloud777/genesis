@@ -36,7 +36,7 @@
                 "validator_type": "ecdsa"
             }
         },
-        "blockGasTarget": 10
+        "blockGasTarget": 0
     },
     "bootnodes": [
         "/ip4/167.172.75.87/tcp/1478/p2p/16Uiu2HAmJMbGYAnJB3wBPb6m5Gzy9oLvfKmfjBVXFCtt1MzsrgEL",
