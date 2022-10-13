@@ -1,18 +1,15 @@
 {
-    "name": "big-bang",
+    "name": "focal",
     "genesis": {
         "nonce": "0x0000000000000000",
         "timestamp": "0x0",
-        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000d8d594000000000000000000000000000000000000000080c0",
-        "gasLimit": "0x500000",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f858f8549439ef4616867ace34ca25ed557320d70d1ae00dea94e21e75ece98b57bb240a4906a55047f80376dc0e947dbf8c4166cffa9836c9097d8a1ce75f9eb6736f944ad7d8de987e0f8a6a796d1b82274448c41d10ec80c0",
+        "gasLimit": "0x5d21dba00",
         "difficulty": "0x1",
         "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
         "coinbase": "0x0000000000000000000000000000000000000000",
         "alloc": {
-            "0x8930E340e2b9F9E758CbC3Cd24cd430Ba18EE90A": {
-                "balance": "0x21e19e0c9bab2400000"
-            },
-            "0xA9E602761fD852562dFc0abfCba76e628D4C22Cb": {
+            "0x10331281e8cB6DF82Bd7B1CC48829526670b2510": {
                 "balance": "0x21e19e0c9bab2400000"
             }
         },
@@ -31,16 +28,18 @@
             "EIP158": 0,
             "EIP155": 0
         },
-        "chainID": 1909,
+        "chainID": 1001,
         "engine": {
             "ibft": {
                 "epochSize": 100000,
-                "type": "PoA"
+                "type": "PoA",
+                "validator_type": "ecdsa"
             }
         },
-        "blockGasTarget": 0
+        "blockGasTarget": 10
     },
     "bootnodes": [
-        ""
+        "/ip4/167.172.75.87/tcp/1478/p2p/16Uiu2HAmJMbGYAnJB3wBPb6m5Gzy9oLvfKmfjBVXFCtt1MzsrgEL",
+        "/ip4/167.172.75.163/tcp/1478/p2p/16Uiu2HAm5naNUkCLuTm6Tkbrkd4t62LQViTFXWVthFBxDoasJjS3"
     ]
 }
