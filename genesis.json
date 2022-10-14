@@ -3,7 +3,7 @@
     "genesis": {
         "nonce": "0x0000000000000000",
         "timestamp": "0x0",
-        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f843f83f9445de2e2cebbfbad7dbb6a6327f824cf78adabb1394938655d43d70fc32386d0ebdb9f4ad191615afcf94b26073bae9769707aa61af7d5a0542cf1b099dea80c0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f843f83f944d31a3b785b137e256880492cc6279abaac532019491be7142ec7d746262731bf98d90848ea6bd06bf9473ad0b77ce8723573f9a38af38aa60bc17daef6d80c0",
         "gasLimit": "0xee6b280",
         "difficulty": "0x1",
         "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
@@ -28,10 +28,10 @@
             "EIP158": 0,
             "EIP155": 0
         },
-        "chainID": 8080,
+        "chainID": 593,
         "engine": {
             "ibft": {
-                "epochSize": 1000,
+                "epochSize": 1440,
                 "type": "PoA",
                 "validator_type": "ecdsa"
             }
@@ -39,7 +39,7 @@
         "blockGasTarget": 0
     },
     "bootnodes": [
-        "/ip4/159.223.83.139/tcp/1478/p2p/16Uiu2HAmFWSpSmiDdK4jTKURpECYkcEaMqUee2xQtgoBDDQFdb2Q",
-        "/ip4/157.230.35.17/tcp/1478/p2p/16Uiu2HAm8vDEzhUs8faQPYDS6XgaWYr5GSvpZNgkW3iFA6SPgccF"
+        "/ip4/165.22.253.208/tcp/1478/p2p/16Uiu2HAkv3tw98X3J44QoacQ1Z6AZzAGv39YwJu5oEM24LhJc8va",
+        "/ip4/165.22.48.99/tcp/1478/p2p/16Uiu2HAm93wV2gbfsz8KQLhYnVsce5BXXkWnggxaSdeN3dtPGYKg"
     ]
 }
