@@ -36,10 +36,10 @@
                 "validator_type": "ecdsa"
             }
         },
-        "blockGasTarget": 0
+        "blockGasTarget": 10
     },
     "bootnodes": [
-        "/ip4/167.172.75.87/tcp/1478/p2p/16Uiu2HAmJMbGYAnJB3wBPb6m5Gzy9oLvfKmfjBVXFCtt1MzsrgEL",
-        "/ip4/167.172.75.163/tcp/1478/p2p/16Uiu2HAm5naNUkCLuTm6Tkbrkd4t62LQViTFXWVthFBxDoasJjS3"
+        "/ip4/157.230.249.122/tcp/1478/p2p/16Uiu2HAm7mGsBxB488yhVAaSqdmTMrFu8EDuRP8gyeuBDKHHoWKp",
+        "/ip4/157.230.251.113/tcp/1478/p2p/16Uiu2HAmNFud5dU6G6516xApvm2qSYnchHmmZzQM3oa9yVNqaeez"
     ]
 }
